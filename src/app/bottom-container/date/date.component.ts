@@ -1,14 +1,5 @@
 import { Component } from '@angular/core';
-
-const WEEKDAYS = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-]
+import { WEEKDAYS } from 'src/app/constants/date';
 
 @Component({
   selector: 'full-date',

@@ -46,5 +46,5 @@ export interface WeatherDailyDetails {
 export interface Weather {
   current: WeatherDetails;
   hourly: WeatherDetails[];
-  daily: WeatherDailyDetails;
+  daily: WeatherDailyDetails[];
 }
