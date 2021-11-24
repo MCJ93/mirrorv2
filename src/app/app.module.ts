@@ -10,6 +10,7 @@ import { WeatherWrapper } from './bottom-container/weather/weather.component';
 import { CurrentWeather } from './bottom-container/weather/current-weather/current-weather.component';
 import { HourlyWeather } from './bottom-container/weather/hourly-weather/hourly-weather.component';
 import { DailyWeather } from './bottom-container/weather/daily-weather/daily-weather.component';
+import { SpotifyPlayer } from './bottom-container/spotify/spotify.component';
 
 //TODO: Split into more modules?
 @NgModule({
@@ -21,7 +22,8 @@ import { DailyWeather } from './bottom-container/weather/daily-weather/daily-wea
     WeatherWrapper,
     CurrentWeather,
     HourlyWeather,
-    DailyWeather
+    DailyWeather,
+    SpotifyPlayer
   ],
   imports: [
     HttpClientModule,
