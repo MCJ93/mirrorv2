@@ -15,7 +15,7 @@ export class SpotifyPlayer {
   ) {};
 
   ngOnInit() {
-    window.onSpotifyWebPlaybackSDKReady = this.initializeSpotify;
+    // window.onSpotifyWebPlaybackSDKReady = this.initializeSpotify;
   }
 
   private initializeSpotify() {

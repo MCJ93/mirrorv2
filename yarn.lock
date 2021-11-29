@@ -219,6 +219,14 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/youtube-player@^13.0.2":
+  version "13.0.2"
+  resolved "https://registry.yarnpkg.com/@angular/youtube-player/-/youtube-player-13.0.2.tgz#964e448452d86bd62542fc3147f68f61036503da"
+  integrity sha512-bbQtPr60XGpGuNrkKN9o1dDFIH1uwJOpegGvnnoOXYJjcxiDEm98RyUT13XS7UBoXh/OaLYsEIASjjctWgXFbA==
+  dependencies:
+    "@types/youtube" "^0.0.42"
+    tslib "^2.3.0"
+
 "@assemblyscript/loader@^0.10.1":
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/@assemblyscript/loader/-/loader-0.10.1.tgz#70e45678f06c72fa2e350e8553ec4a4d72b92e06"
@@ -1386,6 +1394,11 @@
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@types/spotify-web-playback-sdk/-/spotify-web-playback-sdk-0.1.12.tgz#e1178736dc76fee5c151a79d94913d522e8f1cd2"
   integrity sha512-qlKVNdHiQLSztUoMTz7Zo8Dxmzcd1k89Ct2XsNMVl8BfCzotovae/hSLvHPoua/N8i592LZ1q0SsgtQH6JT+vA==
+
+"@types/youtube@^0.0.42":
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/@types/youtube/-/youtube-0.0.42.tgz#c3568e3e82e04cbd00cac3b66564ebcd21fd9d90"
+  integrity sha512-Nqo3HMPFPcNyZ7HNFZJjpH+N4yXqpxBItG+41e7nL9zednovMRZMXWj36CctSznbBcbj6ucvkJDo5iZ8SKqLIw==
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"

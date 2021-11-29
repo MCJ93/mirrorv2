@@ -11,6 +11,8 @@ import { CurrentWeather } from './bottom-container/weather/current-weather/curre
 import { HourlyWeather } from './bottom-container/weather/hourly-weather/hourly-weather.component';
 import { DailyWeather } from './bottom-container/weather/daily-weather/daily-weather.component';
 import { SpotifyPlayer } from './bottom-container/spotify/spotify.component';
+import { YoutubePlayer } from './bottom-container/youtube/youtube.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 //TODO: Split into more modules?
 @NgModule({
@@ -23,11 +25,13 @@ import { SpotifyPlayer } from './bottom-container/spotify/spotify.component';
     CurrentWeather,
     HourlyWeather,
     DailyWeather,
-    SpotifyPlayer
+    SpotifyPlayer,
+    YoutubePlayer
   ],
   imports: [
     HttpClientModule,
-    BrowserModule
+    BrowserModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
