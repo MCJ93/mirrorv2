@@ -15,10 +15,12 @@ export class SpotifyPlayer {
   ) {};
 
   ngOnInit() {
-    // window.onSpotifyWebPlaybackSDKReady = this.initializeSpotify;
+    window.onSpotifyWebPlaybackSDKReady = this.initializeSpotify;
+    console.log("INIT")
   }
 
   private initializeSpotify() {
+    console.log("INITIAIZE")
     const player = new Spotify.Player({
       name: 'Mirrorv2',
       getOAuthToken: cb => { cb(TOKEN); },
